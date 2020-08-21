@@ -1,0 +1,21 @@
+.container {
+    max-width: 350px;
+    width: 85%;
+    height: 16%;
+    text-align: right;
+    box-sizing: border-box;
+
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-right: 5px;
+    background-color: #d0d6e1;
+    border-radius: 10px;
+    border-bottom: 10px solid #C3C8D4;
+    font-size: 5rem;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+}
