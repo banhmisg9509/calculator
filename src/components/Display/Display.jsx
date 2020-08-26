@@ -1,14 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import styles from "./Display.module.css";
+import { DisplayContext } from "context";
 
-function Display({ value }) {
-    return (
-        <div className={styles.container}>
-           {value}
-        </div>
-    );
+function Display() {
+    const { displayValue } = useContext(DisplayContext);
+    return <div className={styles.container}>{displayValue}</div>;
 }
-
-Display.propTypes = {};
 
 export default Display;

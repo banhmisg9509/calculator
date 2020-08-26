@@ -4,13 +4,27 @@
     justify-content: center;
     align-items: center;
 
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 5px;
-    border-bottom: 5px solid #E4E5E6;
+    border-bottom: 5px solid #e4e5e6;
 
     font-size: 2rem;
     font-weight: bold;
-    font-family: 'Orbitron', sans-serif;
+    font-family: "Orbitron", sans-serif;
 
     cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+
+.container:hover {
+    background-color: #e4e5e6;
+}
+
+.equal {
+    background-color: #f89734;
+    border-bottom: 5px solid #de8339;
+}
+
+.equal:hover {
+    background-color: #de8339;
 }
